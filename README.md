@@ -1,19 +1,19 @@
 # docker-php5-apache
 
-Make sure you have installed the docker on your computer.
+## Make sure you have installed the docker on your computer.
      https://www.docker.com/
      
-Kitematic has been installed on the computer for docker UI
+## Kitematic has been installed on the computer for docker UI
     https://kitematic.com/
     
     
-# Docker Commandline to install PHP5.5, Apache2.4
+# Docker Command to install PHP5.5, Apache2.4
 
 List all docker images :-
-    docker image ls
+    ```docker image ls```
     
 List all docker containers :-
-    docker container ls
+    ```docker container ls```
  
 Build the docker image :-  
     docker build -t php-apache-image .
