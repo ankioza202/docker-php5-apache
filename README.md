@@ -7,7 +7,7 @@
     https://kitematic.com/
     
     
-# Docker Command to install PHP5.5, Apache2.4
+## Docker Command to install PHP5.5, Apache2.4
 
 List all docker images :-
     ```docker image ls```
