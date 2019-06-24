@@ -16,17 +16,17 @@ List all docker containers :-
     ```docker container ls```
  
 Build the docker image :-  
-    docker build -t php-apache-image .
+    ```docker build -t php-apache-image .```
 
 Run the docker :-
-    docker run -p 8081:8081 -d --name php5.6-apache    078d96a4fe67
+    ```docker run -p 8081:8081 -d --name php5.6-apache    078d96a4fe67```
     
     
  Remove docker image : -
-    docker rmi -f 078d96a4fe67(image ID)
+    ```docker rmi -f 078d96a4fe67(image ID)```
     
 Remove docker container :-
-   docker rm -f 078d96a4fe68(container ID)
+   ```docker rm -f 078d96a4fe68(container ID)```
    
  
  
